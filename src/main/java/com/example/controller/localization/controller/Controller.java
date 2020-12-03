@@ -12,6 +12,7 @@ public class Controller {
                            @RequestHeader (value ="Accept-Language", required = false) String acceptLanguage)
     {
 
+
         System.out.println("Value of lang is "+lang );
         System.out.println("Value of accept language is "+acceptLanguage );
 
